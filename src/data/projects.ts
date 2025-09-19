@@ -18,6 +18,12 @@ export interface Project {
   status: "completed" | "in-progress" | "planned";
 }
 
+import CodeReviewImg from "../assets/CodeReview.png";
+import EnergyImg from "../assets/Energy.png";
+import FitMasterImg from "../assets/FitMaster.png";
+import GamehubImg from "../assets/Gamehub.png";
+import PanzerAIImg from "../assets/PanzerAI.png";
+
 export const projects: Project[] = [
   {
     id: "panzer-gpt",
@@ -36,7 +42,7 @@ export const projects: Project[] = [
       "Docker",
       "Redis",
     ],
-    image: "Public\\Images\\PanzerAI.png",
+    image: PanzerAIImg,
     images: [
       "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -73,7 +79,7 @@ export const projects: Project[] = [
       "Node.js",
       "MongoDB",
     ],
-    image: "Public\\Images\\FitMaster.png",
+    image: FitMasterImg,
     images: [
       "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -110,7 +116,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "Redux Toolkit",
     ],
-    image: "Public\\Images\\Gamehub.png",
+    image: GamehubImg,
     images: [
       "https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/7915437/pexels-photo-7915437.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -148,7 +154,7 @@ export const projects: Project[] = [
       "GitHub Actions",
       "AWS",
     ],
-    image: "src/assets/CodeReview.png",
+    image: CodeReviewImg,
     images: [
       "https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -185,7 +191,7 @@ export const projects: Project[] = [
       "JavaScript",
       "Netlify",
     ],
-    image: "Public\\Images\\Energy.png",
+    image: EnergyImg,
     images: [
       "https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=800",

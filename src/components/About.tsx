@@ -10,6 +10,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import Sumit1Img from "../assets/Sumit1.jpeg";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -181,7 +182,7 @@ const About = () => {
             <div className="flex flex-col items-center md:items-start w-full md:w-auto">
               {/* Image */}
               <img
-                src="Public\\Images\\Sumit1.jpeg"
+                src={Sumit1Img}
                 alt="Sumit Sharma"
                 className="w-96 h-96 object-cover border-4 border-blue-400 shadow-xl bg-slate-800 mb-6"
                 style={{ borderRadius: "1rem" }}

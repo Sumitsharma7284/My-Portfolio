@@ -15,6 +15,24 @@ import {
   Trophy,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import Codestorm1Img from "../assets/Codestorm1.jpeg";
+import Codestorm2Img from "../assets/Codestorm2.jpeg";
+import Codestorm3Img from "../assets/Codestorm3.jpeg";
+import Ideathon1Img from "../assets/ideathon1.jpeg";
+import Ideathon2Img from "../assets/ideathon2.jpeg";
+import Ideathon3Img from "../assets/ideathon3.jpeg";
+import Microsoft1Img from "../assets/Microsoft1.jpeg";
+import Microsoft2Img from "../assets/Microsoft2.jpeg";
+import Microsoft3Img from "../assets/Microsoft3.jpeg";
+import Oneindia1Img from "../assets/Oneindia1.jpeg";
+import Oneindia2Img from "../assets/Oneindia2.jpeg";
+import Oneindia3Img from "../assets/Oneindia3.jpeg";
+import Tatva1Img from "../assets/tatva1.jpeg";
+import Tatva2Img from "../assets/tatva2.jpeg";
+import Tatva3Img from "../assets/tatva3.jpeg";
+import Vishal1Img from "../assets/vishal1.jpeg";
+import Vishal2Img from "../assets/vishal2.jpeg";
+import Vishal3Img from "../assets/vishal3.jpeg";
 import Globe from "../components/ui/Globe.tsx";
 
 const Experience = () => {
@@ -58,15 +76,15 @@ const Experience = () => {
       ],
       photos: [
         {
-          url: "Public\\Images\\Microsoft1.jpeg",
+          url: Microsoft1Img,
           caption: "Microsoft office cybersecurity workshop",
         },
         {
-          url: "Public\\Images\\Microsoft2.jpeg",
+          url: Microsoft2Img,
           caption: "Hands-on ethical hacking session",
         },
         {
-          url: "Public\\Images\\Microsoft3.JPG",
+          url: Microsoft3Img,
           caption: "Security frameworks discussion",
         },
       ],
@@ -97,15 +115,15 @@ const Experience = () => {
       ],
       photos: [
         {
-          url: "Public\\Images\\Codestorm1.jpeg",
+          url: Codestorm1Img,
           caption: "Intense coding session during hackathon",
         },
         {
-          url: "Public\\Images\\Codestorm2.jpeg",
+          url: Codestorm2Img,
           caption: "Team collaboration and brainstorming",
         },
         {
-          url: "Public\\Images\\Codestorm3.jpeg",
+          url: Codestorm3Img,
           caption: "Final presentation to judges",
         },
       ],
@@ -136,15 +154,15 @@ const Experience = () => {
       ],
       photos: [
         {
-          url: "Public\\Images\\ideathon1.jpeg",
+          url: Ideathon1Img,
           caption: "Ideathon event coordination",
         },
         {
-          url: "Public\\Images\\ideathon2.jpeg",
+          url: Ideathon2Img,
           caption: "Participants brainstorming solutions",
         },
         {
-          url: "Public\\Images\\ideathon3.jpeg",
+          url: Ideathon3Img,
           caption: "Innovation showcase presentations",
         },
       ],
@@ -175,15 +193,15 @@ const Experience = () => {
       ],
       photos: [
         {
-          url: "Public\\Images\\Oneindia1.jpeg",
+          url: Oneindia1Img,
           caption: "Cultural performance representing Uttarakhand",
         },
         {
-          url: "Public\\Images\\Oneindia2.jpeg",
+          url: Oneindia2Img,
           caption: "Team celebration after winning",
         },
         {
-          url: "Public\\Images\\Oneindia3.jpeg",
+          url: Oneindia3Img,
           caption: "Unity in diversity showcase",
         },
       ],
@@ -218,15 +236,15 @@ const Experience = () => {
       ],
       photos: [
         {
-          url: "Public\\Images\\tatva1.jpeg",
+          url: Tatva1Img,
           caption: "Saam-e-Lawza poetry night stage",
         },
         {
-          url: "Public\\Images\\tatva2.jpeg",
+          url: Tatva2Img,
           caption: "Audience enjoying poetic performances",
         },
         {
-          url: "Public\\Images\\tatva3.jpeg",
+          url: Tatva3Img,
           caption: "Cultural expression through poetry",
         },
       ],
@@ -257,15 +275,15 @@ const Experience = () => {
       ],
       photos: [
         {
-          url: "Public\\Images\\vishal1.jpeg",
+          url: Vishal1Img,
           caption: "Memorial tribute ceremony",
         },
         {
-          url: "src/assets/vishal2.jpeg",
+          url: Vishal2Img,
           caption: "Community volunteers in action",
         },
         {
-          url: "src/assets/vishal3.jpeg",
+          url: Vishal3Img,
           caption: "Honoring our heroes together",
         },
       ],

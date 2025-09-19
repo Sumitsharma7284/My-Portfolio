@@ -10,7 +10,7 @@ import {
 import { useEffect, useState } from "react";
 // If the file is in the same folder as Hero.tsx:
 import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collision-demo";
-
+import SumitImg from "../assets/Sumit2.jpeg"; 
 // Or, if it's in the parent 'components' folder:
 // import { BackgroundBeamsWithCollision } from "../components/background-beams-with-collision-demo";
 
@@ -181,7 +181,7 @@ const Hero = () => {
                 <div className="relative z-10">
                   <div className="h-[32rem] rounded-3xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-900 shadow-2xl">
                     <img
-                      src="Public\\Images\\Sumit2.jpeg"
+                      src={SumitImg}
                       alt="Sumit Sharma - Professional Portrait"
                       className="w-full h-full object-cover object-center brightness-75"
                     />
