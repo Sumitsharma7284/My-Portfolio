@@ -203,7 +203,7 @@ const About = () => {
                   <div className="flex items-center gap-4 text-slate-400 text-xs">
                     <span className="flex items-center gap-1">
                       <Calendar size={12} />
-                      2022 - Present
+                      2024 - Present
                     </span>
                   </div>
                 </div>
